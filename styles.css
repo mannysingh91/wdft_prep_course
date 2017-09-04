@@ -1,0 +1,73 @@
+
+/* DO NOT CHANGE THESE STYLES */
+span 
+{
+	display: inline-block;
+	background-color: orange;
+	border: 1px solid black;
+	width:100px;
+	height:100px;
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	height: 10000px; /* this is just to make sure you can scroll */
+}
+
+div
+{
+	height: 200px;
+	border: 5px solid blue;
+	margin: 10px;
+}
+
+/***************************/
+/* BEGIN YOUR CHANGES HERE */
+/***************************/
+
+/* FIRST ROW : FLOATS; */
+.a1 {float: left;
+}
+
+.b1 {float: left;
+}
+
+.c1 {float: right;
+}
+
+.d1 {float: right;
+}
+
+/* SECOND ROW : DISPLAY */
+
+.a2 {display: inline;
+}
+
+.b2 {display: inline;
+}
+
+.c2 {display: inline;
+}
+
+.d2 {display: inline;
+}
+
+/* THIRD ROW : POSITION */
+
+.a3 {height: 50px;
+    width: 25%;
+}
+
+.b3 {height: 200px;
+    width: 50%;
+}
+
+.c3 {height: 20px;
+    width: 110%;
+}
+
+.d3 {height: 100px;
+    width: 50%;
+}
